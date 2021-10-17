@@ -12,6 +12,7 @@
   height: 170px;
   position: relative;
   overflow: hidden;
+  margin: 0 auto 20px auto;
 }
 
 .image-cropper img {
