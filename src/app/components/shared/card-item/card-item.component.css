@@ -5,6 +5,7 @@
   width: 224px;
   max-height: 207px;
   max-width: 224px;
+  cursor: pointer;
 }
 
 .mat-card-image {

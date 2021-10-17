@@ -31,7 +31,7 @@
 /* Mat Tab */
 
 .mat-tab-header {
-  margin: 3em 0 2em 0;
+  margin: 1em 0 2em 0;
 }
 
 /* Mat Tab End */
@@ -58,8 +58,6 @@
 }
 
 .mat-drawer-content .home-about {
-  background: #F5F5F5 url("../../assets/bg_about.png") no-repeat fixed top right;
   background-size: 100% 200%;
   min-height: 100vh;
 }
-
