@@ -1,0 +1,28 @@
+<div *ngIf="!items.length" fxLayout="row" fxLayoutAlign="center center">
+  <mat-spinner class="content-loader"></mat-spinner>
+</div>
+
+
+<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="start center" fxLayoutGap="3%">
+
+
+  <mat-card (click)="openDialog(item)" fxFlex.xs="100" fxFlex.sm="30" fxFlex.md="22" fxFlex.lg="17" *ngFor="let item of items"
+            class="card-item ease-motion mat-elevation-z1" [ngClass]="{'mat-elevation-z5': selected === item}"
+            (mouseover)="onSelect(item)" (mouseout)="onLeave(item)">
+
+    <div class="viewOverlay" data-content="View More">
+      <img fxLayoutAlign="space-evenly center" mat-card-image class="card-img clip" [src]="imgUrl + item.img">
+      <!--<p *ngIf="loader" class="animated-background" style="height: 103%; width: 100%;top: 0px;"></p>-->
+    </div>
+
+
+    <mat-card-content>
+      <p class="folio-card-title longName">{{item.name}}</p>
+      <div class="red-line"></div>
+      <img class="icon" [src]="imgUrl + item.icon">
+
+    </mat-card-content>
+
+  </mat-card>
+
+</div>

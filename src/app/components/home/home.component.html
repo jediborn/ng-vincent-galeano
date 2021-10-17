@@ -1,0 +1,103 @@
+
+<img class="phone-image-one phone-layer-one" src="../../assets/phone/1.svg">
+<img class="phone-image-two phone-layer-two" src="../../assets/phone/2.svg">
+<img class="phone-image-three phone-layer-three" src="../../assets/phone/3.svg">
+<img class="phone-image-three phone-layer-three" id="layer4" src="../../assets/phone/0.svg">
+<div class="container container-padding home-drawer-content content"
+     fxLayout
+     fxLayout.xs="column"
+     fxLayoutAlign="center"
+     fxLayoutGap="10px"
+     fxLayoutGap.xs="0">
+
+  <div fxFlex="100%">
+
+
+    <mat-card class="home-card">
+      <!--<h1 class="tagline">Think it, create it</h1>-->
+      <div [@fadeInAnimation]="">
+      <h1 class="tagline">Vincent Galeano</h1>
+
+      <h2 class="sub-tagline">Full-Stack Web Developer / Web & Graphic Designer</h2>
+
+      <button mat-raised-button secondary routerLink="/media/web-development" class="view-more">View Media</button>
+
+      <div class="spacer-sm"></div>
+
+      <div class="container"
+           fxLayout
+           fxLayout="row"
+           fxLayout.xs="column"
+           fxLayout.sm="column"
+           fxLayoutAlign="center"
+           fxLayoutGap="10px"
+           fxLayoutGap.xs="0">
+
+        <mat-card routerLink="/media/web-development" class="course-panel" fxLayout="column" fxLayoutAlign="center"
+                  fxFlex="50%">
+
+          <div class="mat-card-header course-header">
+            <div fxLayout="row" fxLayoutAlign="start center">
+              <img class="home-icon" src="{{this.frontEnd}}">
+              <h3 class="section-headers">Full-Stack Web Development</h3>
+            </div>
+          </div>
+
+          <mat-card-content>
+            <p>The use of Angular, Node.js, and Cloud Services has allowed me to create high-quality and responsive
+              Websites.</p>
+          </mat-card-content>
+
+          <mat-card-actions>
+            <div fxLayout="row" fxLayoutAlign="end center">
+              <p class="vg-blue">View Projects</p>
+            </div>
+          </mat-card-actions>
+
+
+        </mat-card>
+
+
+        <mat-card routerLink="/media/graphic-design" class="course-panel" fxLayout="column" fxLayoutAlign="center"
+                  fxFlex="50%">
+
+          <div class="mat-card-header course-header">
+            <div fxLayout="row" fxLayoutAlign="start center">
+              <img class="home-icon" src="{{this.graphicDesign}}">
+              <h3 class="section-headers">User Experience & Graphic Design</h3>
+            </div>
+          </div>
+
+          <mat-card-content>
+            <p>User experience with any app is crucial. Sketch 3 and Adobe Illustrator allow for organized and efficient
+              designs and asset creation.</p>
+          </mat-card-content>
+
+
+          <mat-card-actions>
+            <div fxLayout="row" fxLayoutAlign="end center">
+              <p class="vg-blue">View Projects</p>
+            </div>
+          </mat-card-actions>
+
+
+        </mat-card>
+
+
+      </div>
+
+      </div>
+    </mat-card>
+
+
+
+
+  </div>
+
+
+</div>
+
+
+
+
+

@@ -1,0 +1,65 @@
+/* type */
+
+.page-header {
+  font-weight: 600;
+  font-size: 18px;
+  color: #474747;
+
+}
+.header-icon {
+  color: #CB6562;
+}
+.content-loader {
+  margin-top: 20vh;
+}
+
+.mat-progress-spinner circle, .mat-spinner circle {
+  stroke: #CB6562;
+}
+/* Layout */
+
+.spacer-xs {
+  padding: 10px;
+}
+.spacer-sm {
+  padding: 25px;
+}
+
+/* Layout End */
+
+
+/* Mat Tab */
+
+.mat-tab-header {
+  margin: 3em 0 2em 0;
+}
+
+/* Mat Tab End */
+
+
+/*
+*/
+.longName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.container.container-padding.content {
+  min-height:80vh;
+}
+
+.copyright {
+  text-align: center;
+}
+.mat-drawer-content .home-bg {
+  background: #F5F5F5 url("../../assets/bg.png") no-repeat fixed top right;
+  background-size: 80% 100%;
+}
+
+.mat-drawer-content .home-about {
+  background: #F5F5F5 url("../../assets/bg_about.png") no-repeat fixed top right;
+  background-size: 100% 200%;
+  min-height: 100vh;
+}
+

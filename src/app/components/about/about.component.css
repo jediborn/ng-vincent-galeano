@@ -1,0 +1,56 @@
+
+
+.about-drawer-content {
+  /*background: #F5F5F5 url("../../../assets/bg_about.png") no-repeat fixed top right;*/
+  background-size: 100% 200%;
+  min-height: 100vh;
+}
+.achievement-item {
+  background: #FFFFFF;
+  width: 211px;
+  height: 211px;
+  min-width: 211px;
+  min-height: 211px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15%;
+}
+
+.web-item {
+  background: #FFFFFF;
+  width: 131px;
+  height: 131px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6%;
+  margin-top: 6%;
+}
+
+.achievement-item img {
+  max-width: 172px;
+}
+
+@media (max-width: 990px){
+  .achievement-item {
+    width: 120px;
+    height: 120px;
+    min-width:120px;
+    min-height:120px;
+  }
+
+  .web-item {
+    width: 120px;
+    height: 120px;
+  }
+
+  .achievement-item img,
+  .web-item img{
+    max-width: 100px;
+  }
+}
+
+

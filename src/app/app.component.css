@@ -1,0 +1,152 @@
+.logo_button {
+
+}
+.mat-icon-button{
+  line-height: 0;
+}
+.vg_button{
+  width: 40px;
+  height: 40px;
+}
+.icon-hover:hover{
+  background-color: rgba(60,64,67,0.08);
+}
+.active-icon{
+  background-color: rgba(60,64,67,0.08);
+  color: #cb6562 !important;
+}
+.top-nav {
+  background: white;
+  height: 64px;
+  min-height: 64px;
+  border-bottom: 1px solid #dadce0;
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+
+.margin-body {
+  margin-left: 257px !important;
+}
+
+.toggle-side-small {
+  background-color: rgba(245, 245, 245, 0);
+  width: 70px;
+  transition: .1s ease-in-out;
+}
+
+.box-shadow-none {
+  box-shadow: none;
+}
+
+.box-shadow-show {
+  box-shadow: inherit;
+}
+
+.toggle-side {
+  width: 257px;
+  /*background-color: rgba(255, 255, 255, 1);*/
+  background: white;
+  transition: .1s ease-in-out;
+}
+
+.toggle-content {
+  /*left: 220px;*/
+  /*width: 75%;*/
+}
+
+.toggle-content-large {
+}
+
+.nav-links {
+  margin-left: 1em;
+  /*font-family: SourceSansPro-SemiBold;*/
+  font-size: 14px;
+  color: #474747;
+  text-align: left;
+}
+
+.nav-icon {
+  color: #757575;
+}
+
+.menu-vg {
+  background: red;
+  border: 1px solid #ccc;
+  border-color: rgba(0, 0, 0, .2);
+  color: #000;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  display: none;
+  outline: none;
+  overflow: hidden;
+  position: absolute;
+  right: 8px;
+  top: 62px;
+  -webkit-animation: gb__a .2s;
+  animation: gb__a .2s;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: text;
+
+}
+
+.dropdown-vg {
+
+}
+
+.dropdown-item-vg {
+  display: inline;
+  width: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 8px 15px;
+}
+
+
+
+.dropdown-item-vg:hover {
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  padding: 8px 15px;
+}
+
+/* Overwrites */
+
+/* Sub Nav Fade and hide start*/
+.subNav {
+  padding-top: 0;
+  height: 0px;
+}
+
+.subNav {
+  padding-top: 0;
+  height: 78px;
+}
+
+/* Sub Nav Fade and hide end*/
+
+a.sub-nav-link {
+  height: 38px;
+}
+
+a.sub-nav-link span {
+  padding-left: 60px;
+}
+
+a.mat-list-item.activeNavLink mat-icon.nav-icon,
+a.mat-list-item.activeNavLink mat-icon.nav-icon-small,
+a.mat-list-item.activeNavLink span.nav-links {
+  color: #CB6562;
+}
+
+.mat-nav-list .mat-list-item {
+  cursor: pointer;
+  outline: 0;
+  margin: 3px 0 3px 0;
+}
+

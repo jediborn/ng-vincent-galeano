@@ -1,0 +1,15 @@
+<h1 fxLayoutAlign="space-evenly center" mat-dialog-title>{{data.name}}</h1>
+<div mat-dialog-content>
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <img fxLayoutAlign="space-evenly center" class="dialog-img" [src]="imgUrl + data.img">
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <p class="description">{{data.description}}</p>
+  </div>
+
+</div>
+<div mat-dialog-actions fxLayoutAlign="end center" >
+  <button mat-button (click)="onNoClick()">Close</button>
+  <a mat-button cdkFocusInitial href="{{data.link}}" target="_blank">View Website</a>
+</div>

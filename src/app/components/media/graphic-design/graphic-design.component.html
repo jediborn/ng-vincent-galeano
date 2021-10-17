@@ -1,0 +1,22 @@
+<div class="container container-padding content"
+     fxLayout
+     fxLayout.xs="column"
+     fxLayoutAlign="center"
+     fxLayoutGap="10px"
+     fxLayoutGap.xs="0"
+     [@fadeInAnimation]="">
+  <div class="course-panel" fxFlex="100%">
+
+    <div class="spacer-xs"></div>
+
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <mat-icon class="header-icon inline" style="padding: 8px;">color_lens</mat-icon>
+      <h1 class="page-header inline">Graphic Design</h1>
+    </div>
+
+    <div class="spacer-xs"></div>
+
+    <app-card-item [items]="items"></app-card-item>
+
+  </div>
+</div>
