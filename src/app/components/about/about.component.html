@@ -4,7 +4,35 @@
 
   <div fxFlex="100%">
 
-    <h2 class="page-title-section">Achievements and Experience</h2>
+    <h2 class="page-title-section">About</h2>
+
+    <div class="row">
+      <mat-card class="">
+        <div class="image-cropper">
+          <img alt="Vincent Galeano" class="vg_img" src="../assets/vincent_galeano.png">
+        </div>
+
+        <div class="intro">
+
+        <p>I am a Full Stack Developer with just over five and a half years of professional experience. In addition to providing frontend & backend web application solutions, I have also provided UI/UX design to clients across multiple markets.</p>
+
+        <p>Engagements have included (but were not limited to) designing frontend applications using Balsamiq and Sketch 3.</p>
+
+        <p>On the frontend, I have delivered single-page applications using Angular, EmberJs. I have also delivered static websites using HTML, CSS, and JS. All while utilizing either Bootstrap, Angular Material, or The United States Web Design System.</p>
+
+        <p>I have contributed to existing Node/Express APIs on the backend and have created a scalable API for my portfolio, which you can view here: vincentgaleano.com.</p>
+
+        <p>I have experience creating multiple virtual machine (VM) instances using Microsoft Azure, Google Cloud Console, and AWS. Additionally, I have been able to deploy Node/Express and Angular applications to various VMs. Finally, I also have experience implementing Google Tag Manager and Google Analytics to capture Key Performance Indicators (KPIs).</p>
+        <a mat-raised-button secondary href="https://www.linkedin.com/in/vincent-galeano/" class="view-more">
+          LinkedIn
+        </a>
+        </div>
+      </mat-card>
+
+    </div>
+
+
+    <h2 class="page-title-section">Education and Employment</h2>
 
 
     <div *ngIf="!achievements.length" fxLayout="row" fxLayoutAlign="center center">
@@ -25,6 +53,7 @@
       </div>
     </div>
 
+    <h2 class="page-title-section">Technologies</h2>
 
     <mat-tab-group *ngIf="webDev.length">
       <mat-tab label="Web Development">
