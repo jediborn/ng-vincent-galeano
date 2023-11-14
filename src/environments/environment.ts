@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUrl: "http://galeanoapi-env-1.apjrsd3pue.us-east-1.elasticbeanstalk.com/api",
-  imgUrl: "http://galeanoapi-env-1.apjrsd3pue.us-east-1.elasticbeanstalk.com"
+  apiUrl: "http://galeano-api-2023-env.eba-5t2x6txp.us-east-1.elasticbeanstalk.com/api",
+  imgUrl: "http://galeano-api-2023-env.eba-5t2x6txp.us-east-1.elasticbeanstalk.com"
 };
 
 /*
