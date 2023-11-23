@@ -20,12 +20,12 @@ export class GraphicDesignComponent implements OnInit {
 
   ngOnInit() {
 
-    this.getGraphicDesign();
+    // this.getGraphicDesign();
 
-    this.serverService.getGraphicDesignUpdateListener()
-      .subscribe((graphicDesign: GraphicDesign[]) => {
-        this.items = graphicDesign;
-      });
+    // this.serverService.getGraphicDesignUpdateListener()
+    //   .subscribe((graphicDesign: GraphicDesign[]) => {
+    //     this.items = graphicDesign;
+    //   });
 
   }
 

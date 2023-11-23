@@ -11,7 +11,7 @@
             (mouseover)="onSelect(item)" (mouseout)="onLeave(item)">
 
     <div class="viewOverlay" data-content="View More">
-      <img fxLayoutAlign="space-evenly center" mat-card-image class="card-img clip" [src]="imgUrl + item.img">
+      <img fxLayoutAlign="space-evenly center" mat-card-image class="card-img clip" [src]="item.img" alt="">
       <!--<p *ngIf="loader" class="animated-background" style="height: 103%; width: 100%;top: 0px;"></p>-->
     </div>
 
@@ -19,7 +19,7 @@
     <mat-card-content>
       <p class="folio-card-title longName">{{item.name}}</p>
       <div class="red-line"></div>
-      <img class="icon" [src]="imgUrl + item.icon">
+      <img class="icon" [src]="item.icon">
 
     </mat-card-content>
 

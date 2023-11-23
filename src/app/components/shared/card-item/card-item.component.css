@@ -1,4 +1,5 @@
 .mat-card {
+  cursor: pointer;
   padding-top: 0;
   padding: 0;
   height: 207px;

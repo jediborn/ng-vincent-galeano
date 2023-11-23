@@ -3,8 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  apiUrl: "http://galeano-api-2023-env.eba-5t2x6txp.us-east-1.elasticbeanstalk.com/api",
+  production: true,
+  apiUrl: "http://galeano-api-2023-env.eba-5t2x6txp.us-east-1.elasticbeanstalk.com",
   imgUrl: "http://galeano-api-2023-env.eba-5t2x6txp.us-east-1.elasticbeanstalk.com"
 };
 
