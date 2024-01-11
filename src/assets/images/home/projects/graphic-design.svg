@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="44px" viewBox="0 0 57 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-13" transform="translate(-619.000000, -559.000000)" fill-rule="nonzero">
+            <g id="Group-18" transform="translate(156.000000, 8.000000)">
+                <g id="Group-6" transform="translate(463.000000, 547.000000)">
+                    <g id="Group-4" transform="translate(0.000000, 4.000000)">
+                        <path d="M23.2646307,25.5 L15.750542,43.5 L42.2308202,43.5 L34.2359724,25.5 L23.2646307,25.5 Z" id="Rectangle-Copy" stroke="#979797" fill="#FFFFFF"></path>
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="56" height="37"></rect>
+                        <g id="Group-26" transform="translate(15.000000, 8.000000)" stroke="#474747">
+                            <polyline id="Path-3" points="0.847367942 22.0672179 0.847367942 6.75436945 3.34981914 0.973574136 5.9593109 6.75436945 5.9593109 9.20633819"></polyline>
+                            <polyline id="Path-4" points="1.20537933 6.98659305 3.41936527 6.98659305 5.7887717 6.98659305"></polyline>
+                            <path d="M3.70964477,22.1875629 L3.70964477,6.87471449" id="Path-5"></path>
+                            <path d="M5.90826519,22.0940719 L5.90826519,15.9972083" id="Path-6"></path>
+                        </g>
+                        <g id="Group-28" transform="translate(21.000000, 8.000000)" stroke="#474747">
+                            <path d="M7.42955378,0.889835787 L0.17720103,12.8744484 C1.74649793,13.4885528 2.80798578,14.0582879 3.36166459,14.5836536 C3.9153434,15.1090193 4.31934609,15.9298349 4.57367267,17.0461005 L4.57367267,22.3394485 L9.85308956,22.3394485 L9.85308956,17.0461005 C10.3287084,15.875096 10.8355132,15.0542803 11.373504,14.5836536 C11.9114947,14.1130268 12.9942796,13.5432918 14.6218586,12.8744484 L7.42955378,0.889835787 Z" id="Path-7"></path>
+                            <path d="M7.39544654,10.416325 L7.39544654,1.25444702" id="Path-8"></path>
+                            <path d="M4.61657964,18.0811341 L9.79669026,18.0811341" id="Path-9"></path>
+                            <path d="M4.68231956,20.6737929 L9.89399836,20.6737929" id="Path-10"></path>
+                        </g>
+                        <g id="Group-29" transform="translate(35.000000, 10.000000)" stroke="#474747">
+                            <polyline id="Path-11" points="1 7.02934381 1 0 7.61002003 0 7.61002003 20.4628261"></polyline>
+                            <path d="M1,20.4306981 L1,13.7845575" id="Path-13"></path>
+                            <path d="M4,16.5 L8.0399898,16.5" id="Path-12"></path>
+                            <path d="M4,10.5 L8.0399898,10.5" id="Path-12-Copy"></path>
+                            <path d="M4,4.5 L8.0399898,4.5" id="Path-12-Copy-2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

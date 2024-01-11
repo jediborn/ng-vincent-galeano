@@ -13,16 +13,9 @@
         </div>
 
         <div class="intro">
-
-        <p>I am a Full Stack Developer with just over five and a half years of professional experience. In addition to providing frontend & backend web application solutions, I have also provided UI/UX design to clients across multiple markets.</p>
-
-        <p>Engagements have included (but were not limited to) designing frontend applications using Balsamiq and Sketch 3.</p>
-
-        <p>On the frontend, I have delivered single-page applications using Angular, EmberJs. I have also delivered static websites using HTML, CSS, and JS. All while utilizing either Bootstrap, Angular Material, or The United States Web Design System.</p>
-
-        <p>I have contributed to existing Node/Express APIs on the backend and have created a scalable API for my portfolio, which you can view here: vincentgaleano.com.</p>
-
-        <p>I have experience creating multiple virtual machine (VM) instances using Microsoft Azure, Google Cloud Console, and AWS. Additionally, I have been able to deploy Node/Express and Angular applications to various VMs. Finally, I also have experience implementing Google Tag Manager and Google Analytics to capture Key Performance Indicators (KPIs).</p>
+          <p>I am a Software Engineer with over seven years of professional experience. In addition to providing front-end & back-end web applications,</p>
+          <p>I have also provided UI/UX design to clients across multiple markets. I strongly believe that user experience is paramount and that content is a key element in crafting effective solutions.</p>
+          <p>I strongly believe that user experience is paramount and that content is a key element in crafting effective solutions.</p>
         <a mat-raised-button secondary href="https://www.linkedin.com/in/vincent-galeano/" class="view-more">
           LinkedIn
         </a>
@@ -30,66 +23,5 @@
       </mat-card>
 
     </div>
-
-
-    <h2 class="page-title-section">Education and Employment</h2>
-
-
-    <div *ngIf="!achievements.length" fxLayout="row" fxLayoutAlign="center center">
-      <mat-spinner class="content-loader"></mat-spinner>
-    </div>
-
-
-    <div fxLayout="row wrap" fxLayoutAlign="start center" fxLayoutGap="3%">
-
-
-      <div *ngFor="let achieve of achievements" fxLayoutAlign="center center" fxFlex.xs="47" fxFlex.sm="30"
-           fxFlex.md="22" fxFlex.lg="22">
-        <a mat-button href="{{achieve.link}}" target="_blank" class="achievement-item mat-elevation-z2 ease-motion"
-           [ngClass]="{'mat-elevation-z10': selected === achieve.id}" (mouseenter)="onHover(achieve.id)"
-           (mouseleave)="onLeave(achieve.id)">
-          <img src="{{imgUrl + achieve.img}}">
-        </a>
-      </div>
-    </div>
-
-    <h2 class="page-title-section">Technologies</h2>
-
-    <mat-tab-group *ngIf="webDev.length">
-      <mat-tab label="Web Development">
-
-        <div class="tab-content" fxLayout="row wrap" fxLayoutAlign="start center" fxLayoutGap="3%"
-             style="min-height: 30vh">
-          <div *ngFor="let web of webDev" fxLayoutAlign="center center" fxFlex.xs="47" fxFlex.sm="30" fxFlex.md="22" fxFlex.lg="13">
-            <a mat-button href="{{web.link}}" target="_blank" class="web-item mat-elevation-z2 ease-motion"
-               [ngClass]="{'mat-elevation-z10': selected === web.id}" (mouseenter)="onHover(web.id)"
-               (mouseleave)="onLeave(web.id)">
-              <img src="{{imgUrl + web.img}}">
-            </a>
-          </div>
-        </div>
-
-        <div class="spacer-sm"></div>
-
-      </mat-tab>
-      <mat-tab class="tab-padding" label="Graphic Design">
-
-        <div class="tab-content" fxLayout="row wrap" fxLayoutAlign="start center" fxLayoutGap="3%">
-          <div *ngFor="let graphic of graphicDesign" fxLayoutAlign="center center" fxFlex.xs="47" fxFlex.sm="30" fxFlex.md="22" fxFlex.lg="13">
-            <a mat-button href="{{graphic.link}}" target="_blank" class="web-item mat-elevation-z2 ease-motion"
-               [ngClass]="{'mat-elevation-z10': selected === graphic.id}" (mouseenter)="onHover(graphic.id)"
-               (mouseleave)="onLeave(graphic.id)">
-              <img src="{{imgUrl + graphic.img}}">
-            </a>
-          </div>
-        </div>
-
-        <div class="spacer-sm"></div>
-
-
-      </mat-tab>
-    </mat-tab-group>
-
-
   </div>
 </div>
